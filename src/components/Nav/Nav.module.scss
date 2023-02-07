@@ -66,6 +66,7 @@ $breakpoint--nav--break: 1050px;
     font-family: "Barlow", sans-serif;
     font-size: 1.3rem;
     letter-spacing: 0.3px;
+    cursor: pointer;
     &__container--mobile {
       grid-column: 2 / span 2;
       text-align: center;

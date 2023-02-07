@@ -14,14 +14,14 @@ const Footer = () => (
       <Link
         target="_blank"
         aria-label="linkedin"
-        href="https://www.linkedin.com/in/bobbieleeghuman"
+        href="https://www.linkedin.com/in/bridgettecsmith/"
       >
         <BsLinkedin className={cx("item", "item__icon")} color="#117EB8" />
       </Link>
       <Link
         target="_blank"
         aria-label="email"
-        href="mailto:hoffele.bobbieeleea@gmail.com"
+        href="mailto:BridgetteCSmith@gmail.com"
       >
         <TfiEmail className={cx("item", "item__icon")} />
       </Link>

@@ -9,11 +9,11 @@ import styles from "./index.module.scss";
 
 const Resume = () => {
   const postMetaTags: MetaTags = {
-    canonical: "https://www.bobbieleeghuman.com",
-    description: `UX Designer | Portfolio. Language Learning App`,
-    image: "https://www.bobbieleeghuman.com/images/bobbie.png",
+    canonical: "http://bridgettecsmith.com/",
+    description: `Web Strategy | Digital Marketing | Management`,
+    image: "https://www.bridgettecsmith.com/images/bridgette.jpg",
     robots: `${RobotsContent.follow},${RobotsContent.index}`,
-    title: `bobbieleeghuman | Resume`,
+    title: `bridgettecsmith | Resume`,
     type: PageType.website,
   };
 
@@ -31,8 +31,20 @@ const Resume = () => {
       <ImageDisplay
         images={[
           {
-            src: "https://i.imgur.com/bprDiQ8.png",
-            alt: "Resume of Bobbielee Ghuman",
+            src: "https://i.imgur.com/Etfwpy2.jpg",
+            alt: "Resume of Bridgette C Smith",
+            height: 1000,
+            width: 780,
+          },
+          {
+            src: "https://i.imgur.com/mEpFLun.jpg",
+            alt: "Resume of Bridgette C Smith",
+            height: 1000,
+            width: 780,
+          },
+          {
+            src: "https://i.imgur.com/vKloJbV.jpg",
+            alt: "Resume of Bridgette C Smith",
             height: 1000,
             width: 780,
           },

@@ -1,6 +1,6 @@
 import React, { useCallback, useContext, useRef } from "react";
 import Image from "next/image";
-import profilePic from "../../../public/images/bobbie.png";
+import profilePic from "../../../public/images/bridgette.jpg";
 import styles from "./Hero.module.scss";
 import IsTopContext from "src/store/isTop-context";
 import ActiveLinkContext from "src/store/link-context";
@@ -44,15 +44,14 @@ const Hero = () => {
       </div>
       <div>
         <h1 className={styles.text}>
-          Welcome, I am a UX/UI designer located in Katy, Texas. Fueled by
-          coffee and green smoothies, motivated by passion and a love for all
-          things design!
+          A jack of all trades is a master of none, but oftentimes better than a
+          master of one.
         </h1>
       </div>
       <div>
         <Image
           src={profilePic}
-          alt="Picture of Bobbielee Ghuman"
+          alt="Picture of Bridgette C Smith"
           width={273}
           height={273}
           className={styles.image}

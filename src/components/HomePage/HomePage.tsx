@@ -8,11 +8,11 @@ import { MetaTags, PageType, RobotsContent } from "@components/Meta/types";
 
 const HomePage = () => {
   const postMetaTags: MetaTags = {
-    canonical: "https://www.bobbieleeghuman.com",
-    description: `UX Designer | Portfolio`,
-    image: "https://www.bobbieleeghuman.com/images/bobbie.png",
+    canonical: "http://bridgettecsmith.com/",
+    description: `Web Strategy | Digital Marketing | Management`,
+    image: "https://www.bridgettecsmith.com/images/bridgette.jpg",
     robots: `${RobotsContent.follow},${RobotsContent.index}`,
-    title: `bobbieleeghuman`,
+    title: `bridgettecsmith`,
     type: PageType.website,
   };
   return (
@@ -20,7 +20,7 @@ const HomePage = () => {
       <Meta tags={postMetaTags} />
       <Hero />
       <ProjectList />
-      <Skills />
+      {/* <Skills /> */}
       <About />
       <Contact />
     </>

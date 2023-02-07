@@ -40,17 +40,18 @@ const About = () => {
       <Heading title="about" />
       <div className={styles.container}>
         <p className={styles.text}>
-          Hi, I’m Bobbie. I am a UX designer with over 12 years experience
-          working in healthcare and wellness promotion. I have seen many
-          problems in the healthcare industry, many of which I strongly believe
-          can be solved through technology and functional design. I want to
-          solve these problems, using my compassionate nature in caring for
-          others, creative ability, and passion for research and design. My
-          current position is at a healthcare start-up company where I work as a
-          virtual nurse. I work alongside the PYM team. I am excited to expand
-          my research and design-thinking skills, and to create functional
-          products and services to make the world a better place, one happy user
-          at a time
+          Bridging the gap between content design, email and web development. I
+          offer strategic expertise in web development, digital analytics,
+          content migration and strategy. In my previous role, I worked as the
+          Director of Web Strategy, Operations leading mdg's digital efforts,
+          marketing automation, web team and web strategy. I worked with
+          Facebook as Instagram's Web Strategist leading their end-to-end web
+          strategy for Instagram Business. And now, I work with Here
+          Technologies co-leading their web infrastructure and seo strategy. I
+          have a Bachelor of Science in Digital Media, Master of Education in
+          Instructional Leadership and hold a certification in Full Stack Web
+          Development. In my spare time, I'm consistently developing my
+          professional wealth of knowledge.
         </p>
       </div>
     </section>

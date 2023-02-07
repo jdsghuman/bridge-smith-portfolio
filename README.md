@@ -1,10 +1,8 @@
-# Bobbie-Portfolio
-
-The UX and UI designs of this portfolio were designed by Bobbielee.
+# Bridgette-Portfolio
 
 View prod demo link:
 
-[bobbieleeghuman.com](https://bobbieleeghuman.com)
+[http://bridgettecsmith.com(http://bridgettecsmith.com/)
 
 ## Installation
 
