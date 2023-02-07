@@ -57,7 +57,7 @@ const SideDrawer = ({ click, show }: SideDrawerProps) => {
           <a onClick={(e: any) => handleMobileMenu(e, "home")}>Home</a>
         </LinkDisplay>
       </div>
-      <div
+      {/* <div
         className={cx("drawer__item", {
           "drawer__item--hide": !show,
         })}
@@ -65,7 +65,7 @@ const SideDrawer = ({ click, show }: SideDrawerProps) => {
         <LinkDisplay link="/#projects">
           <a onClick={(e: any) => handleMobileMenu(e, "projects")}>Projects</a>
         </LinkDisplay>
-      </div>
+      </div> */}
       {/* <div
         className={cx("drawer__item", {
           "drawer__item--hide": !show,

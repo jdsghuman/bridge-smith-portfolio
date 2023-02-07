@@ -85,7 +85,7 @@ const Nav = ({ drawerToggleClickHandler, sideDrawerOpen }: NavProps) => {
                 </a>
               </LinkDisplay>
             </li>
-            <li>
+            {/* <li>
               <LinkDisplay link="/#projects">
                 <a
                   onClick={(e: any) => handleMobileMenu(e, "projects")}
@@ -94,7 +94,7 @@ const Nav = ({ drawerToggleClickHandler, sideDrawerOpen }: NavProps) => {
                   projects
                 </a>
               </LinkDisplay>
-            </li>
+            </li> */}
             {/* <li>
               <LinkDisplay link="/#skills">
                 <a

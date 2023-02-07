@@ -19,7 +19,7 @@ const HomePage = () => {
     <>
       <Meta tags={postMetaTags} />
       <Hero />
-      <ProjectList />
+      {/* <ProjectList /> */}
       {/* <Skills /> */}
       <About />
       <Contact />
