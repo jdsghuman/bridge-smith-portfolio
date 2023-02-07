@@ -43,15 +43,15 @@ const About = () => {
           Bridging the gap between content design, email and web development. I
           offer strategic expertise in web development, digital analytics,
           content migration and strategy. In my previous role, I worked as the
-          Director of Web Strategy, Operations leading mdg's digital efforts,
-          marketing automation, web team and web strategy. I worked with
-          Facebook as Instagram's Web Strategist leading their end-to-end web
-          strategy for Instagram Business. And now, I work with Here
-          Technologies co-leading their web infrastructure and seo strategy. I
-          have a Bachelor of Science in Digital Media, Master of Education in
-          Instructional Leadership and hold a certification in Full Stack Web
-          Development. In my spare time, I'm consistently developing my
-          professional wealth of knowledge.
+          Director of Web Strategy, Operations leading mdg&apos;s digital
+          efforts, marketing automation, web team and web strategy. I worked
+          with Facebook as Instagram&apos;s Web Strategist leading their
+          end-to-end web strategy for Instagram Business. And now, I work with
+          Here Technologies co-leading their web infrastructure and seo
+          strategy. I have a Bachelor of Science in Digital Media, Master of
+          Education in Instructional Leadership and hold a certification in Full
+          Stack Web Development. In my spare time, I&apos;m consistently
+          developing my professional wealth of knowledge.
         </p>
       </div>
     </section>
