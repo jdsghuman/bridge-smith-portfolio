@@ -1,6 +1,8 @@
 import Image from "next/image";
+import classNames from "classnames/bind";
 // @ts-ignore
 import ModalImage from "react-modal-image";
+const cx = classNames.bind(styles);
 
 import styles from "./ImageDisplay.module.scss";
 
@@ -10,15 +12,21 @@ interface ImageProps {
   height?: number;
   width?: number;
   modal?: boolean;
+  block?: boolean;
 }
 
 interface Props {
   images: ImageProps[];
+  block?: boolean;
 }
 
-const ImageDisplay = ({ images }: Props) => {
+const ImageDisplay = ({ images, block }: Props) => {
   return (
-    <div className={styles.container}>
+    <div
+      className={cx("container", {
+        container__block: block,
+      })}
+    >
       {images?.map((image, i) => {
         if (image.modal) {
           return (

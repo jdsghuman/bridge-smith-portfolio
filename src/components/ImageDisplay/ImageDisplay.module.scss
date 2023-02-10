@@ -4,6 +4,9 @@
   justify-content: space-evenly;
   margin: 40px auto;
   flex-wrap: wrap;
+  &__block {
+    flex-direction: column;
+  }
   &__modal {
     margin: 0 10px;
     @media (max-width: 630px) {

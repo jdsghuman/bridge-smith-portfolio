@@ -35,20 +35,24 @@ const Resume = () => {
             alt: "Resume of Bridgette C Smith",
             height: 1000,
             width: 780,
+            block: true,
           },
           {
             src: "https://i.imgur.com/mEpFLun.jpg",
             alt: "Resume of Bridgette C Smith",
             height: 1000,
             width: 780,
+            block: true,
           },
           {
             src: "https://i.imgur.com/vKloJbV.jpg",
             alt: "Resume of Bridgette C Smith",
             height: 1000,
             width: 780,
+            block: true,
           },
         ]}
+        block
       />
     </div>
   );
